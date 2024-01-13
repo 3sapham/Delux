@@ -1,0 +1,166 @@
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header {
+    width: 100%;
+    border-bottom: 10px solid orange;
+    border-radius: 12.5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#headerBox {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/bilde2.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#headerTxt {
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 4em;
+
+}
+
+#tittel {
+    font-size: 100px;
+    font-family: cursive;
+    color:orange;
+    vertical-align: middle;
+    text-shadow: 2px 2px red;
+    margin: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 1em;
+    background-color: tomato;
+}
+
+nav > ul > li > a:hover {
+    color: burlywood;
+}
+
+#mainBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4em;
+    margin-top: 4em;
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 6em;
+    color: burlywood;
+}
+
+.courses {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.courses > article {
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10em;
+    padding: 1em 0 3em 0;
+    background-color: tomato;
+}
+
+h1, h2, h3, address > p, nav > ul > li > a {
+    margin: 2em 0 2em 0;
+    text-shadow: 2px 2px red;
+}
+
+h3 {
+    text-shadow: 2px 2px black;
+    color: orange;
+}
+
+section {
+    border-top: 1px dashed;
+    padding-bottom: 3em;
+}
+
+article > h2, address > p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+address > p {
+    color: orange;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    color: burlywood;
+    display: flex;
+    flex-flow: row;
+    padding: 4em 0 10em 0;
+    border-top: 10px solid orange;
+    border-radius: 12.5px;
+}
+
+footer > div {
+    width: 33.3%;
+    text-align: center;
+}
+
+address > ul > li {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul {
+    padding-inline-start: 0px;
+
+}
+
+address > ul > li > a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+address > ul > li > a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+#rapport {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 4em;
+    margin-bottom: 4em;
+}
+
+#rapport > p {
+    line-height:1.5em;
+}
